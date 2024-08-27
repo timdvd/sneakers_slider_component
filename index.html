@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- swiper -->
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Sneakers Slider</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/logo.png" alt="image">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Men</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Women</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Popular</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Trend</a>
+                    </li>
+                </ul>
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+            <!-- toggle -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-fill"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- home -->
+        <section class="home">
+            <div class="home__container container">
+                <div class="home__data">
+                    <h2 class="home__subtitle">NIKE</h2>
+                    <h1 class="home__title">
+                        AIR JORDAN
+                    </h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minima accusantium, optio mollitia ipsam odit saepe praesentium 
+                        ipsum consequatur, reiciendis quibusdam, modi necessitatibus 
+                        assumenda neque officiis dolores quod. Eius, aut possimus.
+                    </p>
+                    <a href="#" class="home__button">BUY NOW</a>
+                </div>
+                <div class="home__images">
+                    <div class="home__circle"></div>
+                    <div class="home__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <article class="home__article swiper-slide">
+                                <img src="images/1.png" class="home__shoe" alt="image">
+                            </article>
+                            <article class="home__article swiper-slide">
+                                <img src="images/2.png" class="home__shoe" alt="image">
+                            </article>
+                            <article class="home__article swiper-slide">
+                                <img src="images/3.png" class="home__shoe" alt="image">
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    
+                </div>
+                <div class="home__social">
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- swiper js -->
+    <script src="scripts/swiper-bundle.min.js"></script>
+    <!-- main js -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
